@@ -1,10 +1,13 @@
+#version 300 es
 precision highp float;
+
 uniform mat4 uModelViewMatrix;
 uniform mat4 uProjectionMatrix;
 
-attribute vec3 aPosition;
-attribute vec2 aTexCoord;
-varying vec2 vTexCoord;
+in vec3 aPosition;
+in vec2 aTexCoord;
+
+out vec2 vTexCoord;
 
 void main() {
   vTexCoord = aTexCoord;
