@@ -2,7 +2,7 @@ import p5 from "p5";
 import { sketch } from "./sketch";
 import "./style.css";
 
-const main = () => {
+window.onload = () => {
   const container = document.getElementById("main");
   if (!container) {
     console.error("Canvas element not found");
@@ -11,5 +11,3 @@ const main = () => {
 
   new p5(sketch, container);
 };
-
-main();
