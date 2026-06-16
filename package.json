@@ -11,10 +11,12 @@
   "devDependencies": {
     "@types/p5": "^1.7.6",
     "typescript": "~5.8.3",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "vite-plugin-glsl": "^1.6.0"
   },
   "dependencies": {
     "gpu.js": "^2.16.0",
+    "lygia": "^1.4.1",
     "p5": "^2.0.5"
   }
 }
