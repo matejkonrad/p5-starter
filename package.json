@@ -1,22 +1,23 @@
 {
   "name": "pixelriver",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "gpu.js": "^2.16.0",
+    "lygia": "^1.4.1",
+    "p5": "^2.0.5",
+    "resolve-lygia": "^1.0.4"
+  },
   "devDependencies": {
     "@types/p5": "^1.7.6",
     "typescript": "~5.8.3",
     "vite": "^7.1.7",
     "vite-plugin-glsl": "^1.6.0"
-  },
-  "dependencies": {
-    "gpu.js": "^2.16.0",
-    "lygia": "^1.4.1",
-    "p5": "^2.0.5"
   }
 }
